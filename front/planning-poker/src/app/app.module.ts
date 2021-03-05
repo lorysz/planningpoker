@@ -7,12 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CreateRoomComponent } from './create-room/create-room.component';
 import { DetailRoomComponent } from './detail-room/detail-room.component';
 import { MatButtonModule } from '@angular/material/button';
+import { CardsPlanningComponent } from './cards-planning/cards-planning.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CreateRoomComponent,
-    DetailRoomComponent
+    DetailRoomComponent,
+    CardsPlanningComponent
   ],
   imports: [
     BrowserModule,
